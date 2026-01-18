@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f5f9;
+}
+
+/* Header */
+.header {
+  background: #7c7cf2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Card */
+.card {
+  background: white;
+  width: 500px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Title */
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Exam list */
+#exams p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #f8fafc;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Start button */
+#exams button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#exams button:hover {
+  background: #16a34a;
+}
+

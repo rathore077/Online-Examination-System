@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adminDashboard.css">
+</head>
+<body>
+    
+    <div id="header">
+    <h1>Admin Dashboard</h1>
+</div>
+<div id="container">
+<a href="add-exam.html">Add Exam</a><br><br>
+<a href="add-question.html">Add Question</a>
+
+<div id="examList"></div>
+</div>
+<script src="/js/admin.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="adminDashboard.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header">
+    <h1>Admin Dashboard</h1>
+  </div>
+
+  <!-- Main Container -->
+  <div id="container">
+
+    <!-- Card Box -->
+    <div class="admin-card">
+      <h2>Admin Actions</h2>
+
+      <button class="admin-btn" onclick="location.href='add-exam.html'">
+        ➕ Add Exam
+      </button>
+
+      <button class="admin-btn" onclick="location.href='add-question.html'">
+        ❓ Add Question
+      </button>
+    </div>
+
+    <div id="examList"></div>
+  </div>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

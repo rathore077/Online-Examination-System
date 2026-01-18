@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/exam.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Online Examination</h1>
+  </div>
+
+  <!-- Exam Container -->
+  <div class="container">
+    <div class="exam-card">
+
+      <!-- Timer -->
+      <div id="timer" class="timer">
+        ⏳ Time Left: 00:00
+      </div>
+
+      <!-- Questions -->
+      <div id="questions"></div>
+
+      <!-- Submit -->
+      <button class="submit-btn" onclick="submitExam()">
+        ✅ Submit Exam
+      </button>
+
+    </div>
+  </div>
+
+  <script src="/js/exam.js"></script>
+</body>
+</html>
+
